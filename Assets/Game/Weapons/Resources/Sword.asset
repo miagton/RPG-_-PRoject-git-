@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c2312b5399bc264fba7cbf35b1e8e53, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  itemID: dba3536b-665e-490c-a6cb-e282249db7c9
+  displayName: Old Sword
+  description: A sword ruined by time, still have some sharp edges
+  icon: {fileID: 21300000, guid: 3b0497f5c50d040478fa02e4bfaa9402, type: 3}
+  pickup: {fileID: 4475141019987034287, guid: 2e733dad767c25a498c51b3850a29e37, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
+  animatorOverride: {fileID: 22100000, guid: 7e1591ad72c58d643916aea7d867797f, type: 2}
+  EquipedWeaponPrefab: {fileID: 8899292705165842100, guid: 71584ed694f06b34bb2065cf22217e4c,
+    type: 3}
+  WeaponRange: 2
+  timeBetweenAttacks: 0.5
+  WeaponDamage: 8
+  percentageBonus: 25
+  isRightHanded: 1
+  projectile: {fileID: 0}
+  Skills: []

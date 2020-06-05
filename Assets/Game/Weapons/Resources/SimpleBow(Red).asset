@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c2312b5399bc264fba7cbf35b1e8e53, type: 3}
+  m_Name: SimpleBow(Red)
+  m_EditorClassIdentifier: 
+  itemID: 4776c3f2-d1cb-4e9e-b571-0830fd6460a7
+  displayName: Old Bow
+  description: Crafted in old times, only dead can make use of it
+  icon: {fileID: 21300000, guid: 3b0497f5c50d040478fa02e4bfaa9402, type: 3}
+  pickup: {fileID: 0}
+  stackable: 0
+  allowedEquipLocation: 5
+  animatorOverride: {fileID: 22100000, guid: 8975e45d5eaa1774ab92440c089b34f6, type: 2}
+  EquipedWeaponPrefab: {fileID: -1222773669997420755, guid: 0292df0fd2cd7564fbd6854001429cca,
+    type: 3}
+  WeaponRange: 12
+  timeBetweenAttacks: 1
+  WeaponDamage: 15
+  percentageBonus: 20
+  isRightHanded: 0
+  projectile: {fileID: 8055748931738529954, guid: 8206a09b67124cc42aded35664bfb7e7,
+    type: 3}
+  Skills: []

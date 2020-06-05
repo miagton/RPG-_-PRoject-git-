@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c2312b5399bc264fba7cbf35b1e8e53, type: 3}
+  m_Name: Sword_2Handed
+  m_EditorClassIdentifier: 
+  itemID: e18d1c17-c984-4a4f-b524-1123134804f8
+  displayName: 2-Handed Sword
+  description: Heavy weapon for a skilled warrior.Uses combo attacks to destroy your
+    enemies
+  icon: {fileID: 21300000, guid: 3b0497f5c50d040478fa02e4bfaa9402, type: 3}
+  pickup: {fileID: 3463320190777074130, guid: fbfdb83f82689a243b0a07684b1990de, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
+  animatorOverride: {fileID: 22100000, guid: f5df9a705d0f9bf4f8ab7d278d2b191c, type: 2}
+  EquipedWeaponPrefab: {fileID: -6908562063439110934, guid: c07210978968a974d857704d29b460d4,
+    type: 3}
+  WeaponRange: 4
+  timeBetweenAttacks: 1.5
+  WeaponDamage: 15
+  percentageBonus: 5
+  isRightHanded: 1
+  projectile: {fileID: 0}
+  Skills: []

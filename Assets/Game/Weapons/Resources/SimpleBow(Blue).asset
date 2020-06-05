@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c2312b5399bc264fba7cbf35b1e8e53, type: 3}
+  m_Name: SimpleBow(Blue)
+  m_EditorClassIdentifier: 
+  itemID: 789570a2-3af6-47cb-8c6e-8e614b8ce2b5
+  displayName: Wooden Bow
+  description: Simple but usefull
+  icon: {fileID: 21300000, guid: 3b0497f5c50d040478fa02e4bfaa9402, type: 3}
+  pickup: {fileID: 7462333659980827977, guid: d0f3890e34c00424298ed05d0a179f48, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
+  animatorOverride: {fileID: 22100000, guid: 8975e45d5eaa1774ab92440c089b34f6, type: 2}
+  EquipedWeaponPrefab: {fileID: -1222773669997420755, guid: 0292df0fd2cd7564fbd6854001429cca,
+    type: 3}
+  WeaponRange: 10
+  timeBetweenAttacks: 1
+  WeaponDamage: 8
+  percentageBonus: 10
+  isRightHanded: 0
+  projectile: {fileID: 6705101496345145182, guid: 8e53fb2fb8bf45042899725bd4373466,
+    type: 3}
+  Skills: []

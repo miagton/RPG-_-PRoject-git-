@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c2312b5399bc264fba7cbf35b1e8e53, type: 3}
+  m_Name: MagicStaff
+  m_EditorClassIdentifier: 
+  itemID: 405d5ca2-8a95-4464-a008-4e95c399cb21
+  displayName: FlameStaff
+  description: Enchanted with fire.
+  icon: {fileID: 21300000, guid: 3b0497f5c50d040478fa02e4bfaa9402, type: 3}
+  pickup: {fileID: 5361123285685713500, guid: 2dafd5f7d53d4524897946b4999e2d35, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
+  animatorOverride: {fileID: 22100000, guid: cf624b41ecc42104ca691f57781d8200, type: 2}
+  EquipedWeaponPrefab: {fileID: -7703182245624708407, guid: fd17a90f133e8f74fbc82ebf09a4a91c,
+    type: 3}
+  WeaponRange: 12
+  timeBetweenAttacks: 2
+  WeaponDamage: 15
+  percentageBonus: 60
+  isRightHanded: 0
+  projectile: {fileID: 679272559084693004, guid: 1a6c5b14656578f448962a0bedad8cab,
+    type: 3}
+  Skills: []

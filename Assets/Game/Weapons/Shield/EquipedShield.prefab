@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &658333501537962147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 760096438653634041}
+  - component: {fileID: -2151325753650116659}
+  m_Layer: 0
+  m_Name: EquipedShield
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &760096438653634041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658333501537962147}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2592720186044877292}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2151325753650116659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658333501537962147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9cb90aebc7ed84ab833faf86871d0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onAttack:
+    m_PersistentCalls:
+      m_Calls: []
+  Trailposition: {fileID: 0}
+  weaponTrail: {fileID: 0}
+--- !u!1001 &2592720186045290762
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 760096438653634041}
+    m_Modifications:
+    - target: {fileID: 129334, guid: 12d8a1596807fc546b7d9ecfb4336e7f, type: 3}
+      propertyPath: m_Name
+      value: SM_Wep_Shield_Heater_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 413926, guid: 12d8a1596807fc546b7d9ecfb4336e7f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.011
+      objectReference: {fileID: 0}
+    - target: {fileID: 413926, guid: 12d8a1596807fc546b7d9ecfb4336e7f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413926, guid: 12d8a1596807fc546b7d9ecfb4336e7f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413926, guid: 12d8a1596807fc546b7d9ecfb4336e7f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.09229639
+      objectReference: {fileID: 0}
+    - target: {fileID: 413926, guid: 12d8a1596807fc546b7d9ecfb4336e7f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70105636
+      objectReference: {fileID: 0}
+    - target: {fileID: 413926, guid: 12d8a1596807fc546b7d9ecfb4336e7f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.70105845
+      objectReference: {fileID: 0}
+    - target: {fileID: 413926, guid: 12d8a1596807fc546b7d9ecfb4336e7f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.09229533
+      objectReference: {fileID: 0}
+    - target: {fileID: 413926, guid: 12d8a1596807fc546b7d9ecfb4336e7f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 413926, guid: 12d8a1596807fc546b7d9ecfb4336e7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -105
+      objectReference: {fileID: 0}
+    - target: {fileID: 413926, guid: 12d8a1596807fc546b7d9ecfb4336e7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -270
+      objectReference: {fileID: 0}
+    - target: {fileID: 413926, guid: 12d8a1596807fc546b7d9ecfb4336e7f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 89.99999
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 12d8a1596807fc546b7d9ecfb4336e7f, type: 3}
+--- !u!4 &2592720186044877292 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 413926, guid: 12d8a1596807fc546b7d9ecfb4336e7f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2592720186045290762}
+  m_PrefabAsset: {fileID: 0}
