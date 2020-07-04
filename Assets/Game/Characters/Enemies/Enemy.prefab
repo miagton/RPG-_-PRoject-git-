@@ -16,6 +16,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!135 &1645785424986432242
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505385406445212746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.08
+  m_Center: {x: 0, y: 0.77, z: 0}
 --- !u!136 &2154739344345647219
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -30,6 +43,21 @@ CapsuleCollider:
   m_Height: 1.8319287
   m_Direction: 1
   m_Center: {x: 0, y: 0.92572, z: 0}
+--- !u!114 &820639140541520376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505385406445212746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7340d9861afd5a1468bd17ef315fb133, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scatterDistance: 1
+  DropItems: {fileID: 11400000, guid: 3cbf671ee52816946a014b1e8cce2f4c, type: 2}
+  numberOfDrops: 2
 --- !u!114 &3708085985571929371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,19 +90,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3d9ff92e2c15eb4489d44dd325032e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!135 &1645785424986432242
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 505385406445212746}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1.08
-  m_Center: {x: 0, y: 0.77, z: 0}
 --- !u!1001 &1395035713556549674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -298,7 +313,7 @@ PrefabInstance:
     - target: {fileID: 6178905959337049558, guid: 6501b4da92b51ce41b46f018eb9acc73,
         type: 3}
       propertyPath: onDie.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6178905959337049558, guid: 6501b4da92b51ce41b46f018eb9acc73,
         type: 3}
@@ -338,6 +353,21 @@ PrefabInstance:
     - target: {fileID: 6178905959337049558, guid: 6501b4da92b51ce41b46f018eb9acc73,
         type: 3}
       propertyPath: takeDamage.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6178905959337049558, guid: 6501b4da92b51ce41b46f018eb9acc73,
+        type: 3}
+      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 820639140541520376}
+    - target: {fileID: 6178905959337049558, guid: 6501b4da92b51ce41b46f018eb9acc73,
+        type: 3}
+      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: RandomDrop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6178905959337049558, guid: 6501b4da92b51ce41b46f018eb9acc73,
+        type: 3}
+      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6237142744528535527, guid: 6501b4da92b51ce41b46f018eb9acc73,
